@@ -1,0 +1,10 @@
+{
+  "MailSettings": {
+    "DisplayName": "CineAPI",
+    "From": "niels@localhost",
+    "Host": "DESKTOP-3NUEV5L",
+    "Password": "",
+    "Port": 25,
+    "UserName": ""
+  }
+}

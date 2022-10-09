@@ -1,9 +1,11 @@
 ﻿using Domain;
+using Infra.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infra.Persistence
 {
-    internal class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, string>
     {
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
@@ -14,6 +16,12 @@ namespace Infra.Persistence
         public DbSet<Filme> Filmes => Set<Filme>();
         public DbSet<Gerente> Gerentes => Set<Gerente>();
         public DbSet<Sessao> Sessoes => Set<Sessao>();
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(GetType().Assembly);
+        }
     }
 
 }

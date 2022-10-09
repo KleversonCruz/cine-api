@@ -1,0 +1,26 @@
+﻿[
+  {
+    "id": "4AFFDCFF-798D-4563-B593-7F6524801968",
+    "cinemaId": "1579B4F3-0562-484F-8D5E-3144E20CF3FE",
+    "filmeId": "9D1CA366-95CD-4EB1-89CF-60591BCF36C6",
+    "horarioDeEncerramento": "2022-10-09T20:23"
+  },
+  {
+    "id": "23E10678-C5FD-4B03-9059-0DA6AE55DF54",
+    "cinemaId": "90F5A07D-6100-4F9D-93D6-BAE0C6966876",
+    "filmeId": "9D1CA366-95CD-4EB1-89CF-60591BCF36C6",
+    "horarioDeEncerramento": "2022-10-10T20:23"
+  },
+  {
+    "id": "D08CDF29-8D82-4724-B46C-0DC49AFB5467",
+    "cinemaId": "AD7AEF58-200C-4308-B5E5-DAA6CFAFE1B9",
+    "filmeId": "C609D725-D0BC-4B1A-9E4E-89109226D293",
+    "horarioDeEncerramento": "2022-10-11T20:23"
+  },
+  {
+    "id": "8B87365E-C6DA-44BB-BF1A-C4729D92DE4D",
+    "cinemaId": "7ECF0FB3-9287-4333-999B-8A88707CE94B",
+    "filmeId": "385C05EF-07A4-428F-B456-4A9F40D10F34",
+    "horarioDeEncerramento": "2022-10-12T20:23"
+  }
+]

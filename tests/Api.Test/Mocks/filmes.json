@@ -1,0 +1,34 @@
+﻿[
+  {
+    "id": "9D1CA366-95CD-4EB1-89CF-60591BCF36C6",
+    "titulo": "Filme teste 1",
+    "duracao": 60,
+    "diretor": "diretor teste 1",
+    "genero": "genero teste 1",
+    "classificacaoEtaria": 0
+  },
+  {
+    "id": "B32459CE-5416-4E64-929D-39731FDB6838",
+    "titulo": "Filme teste 2",
+    "duracao": 70,
+    "diretor": "diretor teste 2",
+    "genero": "genero teste 2",
+    "classificacaoEtaria": 3
+  },
+  {
+    "id": "C609D725-D0BC-4B1A-9E4E-89109226D293",
+    "titulo": "Filme teste 3",
+    "duracao": 80,
+    "diretor": "diretor teste 3",
+    "genero": "genero teste 3",
+    "classificacaoEtaria": 12
+  },
+  {
+    "id": "385C05EF-07A4-428F-B456-4A9F40D10F34",
+    "titulo": "Filme teste 4",
+    "duracao": 90,
+    "diretor": "diretor teste 4",
+    "genero": "genero teste 4",
+    "classificacaoEtaria": 18
+  }
+]

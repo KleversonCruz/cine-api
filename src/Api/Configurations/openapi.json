@@ -1,0 +1,13 @@
+﻿{
+  "SwaggerSettings": {
+    "Enable": true,
+    "Title": "CineAPI",
+    "Version": "v1",
+    "Description": "API para controle de sessões de cinema.",
+    "ContactName": "Kleverson Cruz",
+    "ContactUrl": "https://github.com/KleversonCruz",
+    "License": true,
+    "LicenseName": "MIT License",
+    "LicenseUrl": "https://github.com/fullstackhero/dotnet-webapi-boilerplate/blob/main/LICENSE"
+  }
+}

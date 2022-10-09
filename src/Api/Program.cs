@@ -1,27 +1,28 @@
+using Api.Configurations;
+using Application;
+using FluentValidation.AspNetCore;
 using Infra;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Host.AddConfigurations();
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddInfra(builder.Configuration);
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+builder.Services.AddControllers(opt =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    opt.SuppressAsyncSuffixInActionNames = false;
+});
+builder.Services.AddFluentValidationAutoValidation();
+
+builder.Services.AddInfra(builder.Configuration);
+builder.Services.AddApplication();
+
+var app = builder.Build();
+await app.Services.InitializeDatabasesAsync();
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
-
-app.MapControllers();
-
+app.UseInfra(builder.Configuration);
+app.MapEndpoints();
 app.Run();
+
+public partial class Program { }

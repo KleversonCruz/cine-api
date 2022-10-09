@@ -1,0 +1,42 @@
+﻿[
+  {
+    "id": "1579B4F3-0562-484F-8D5E-3144E20CF3FE",
+    "nome": "Cinema teste 1",
+    "endereco": {
+      "logradouro": "logradouro teste 1",
+      "bairro": "bairro teste 1",
+      "numero": "numero teste 1"
+    },
+    "gerenteId": "ca43337c-c9bc-4c18-98e1-3bf8694f9fb7"
+  },
+  {
+    "id": "90F5A07D-6100-4F9D-93D6-BAE0C6966876",
+    "nome": "Cinema teste 2",
+    "endereco": {
+      "logradouro": "logradouro teste 2",
+      "bairro": "bairro teste 2",
+      "numero": "numero teste 2"
+    },
+    "gerenteId": "538f5ce7-9bd4-4309-8e62-6e566b01fdfe"
+  },
+  {
+    "id": "AD7AEF58-200C-4308-B5E5-DAA6CFAFE1B9",
+    "nome": "Cinema teste 3",
+    "endereco": {
+      "logradouro": "logradouro teste 3",
+      "bairro": "bairro teste 3",
+      "numero": "numero teste 3"
+    },
+    "gerenteId": "d72ee823-f4e6-43c4-84b5-0e27f8c290f2"
+  },
+  {
+    "id": "7ECF0FB3-9287-4333-999B-8A88707CE94B",
+    "nome": "Cinema teste 4",
+    "endereco": {
+      "logradouro": "logradouro teste 4",
+      "bairro": "bairro teste 4",
+      "numero": "numero teste 4"
+    },
+    "gerenteId": "5a1488ed-8e5c-40f9-ab48-6b73ecc1d6a0"
+  }
+]
